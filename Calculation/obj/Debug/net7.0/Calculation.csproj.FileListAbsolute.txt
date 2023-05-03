@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day26\Calculation\bin\Debug\net7.0\Calculation.exe
+c:\C#\Bootcamp\vscode\Day26\Calculation\bin\Debug\net7.0\Calculation.deps.json
+c:\C#\Bootcamp\vscode\Day26\Calculation\bin\Debug\net7.0\Calculation.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day26\Calculation\bin\Debug\net7.0\Calculation.dll
+c:\C#\Bootcamp\vscode\Day26\Calculation\bin\Debug\net7.0\Calculation.pdb
+c:\C#\Bootcamp\vscode\Day26\Calculation\obj\Debug\net7.0\Calculation.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day26\Calculation\obj\Debug\net7.0\Calculation.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day26\Calculation\obj\Debug\net7.0\Calculation.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day26\Calculation\obj\Debug\net7.0\Calculation.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day26\Calculation\obj\Debug\net7.0\Calculation.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day26\Calculation\obj\Debug\net7.0\Calculation.dll
+c:\C#\Bootcamp\vscode\Day26\Calculation\obj\Debug\net7.0\refint\Calculation.dll
+c:\C#\Bootcamp\vscode\Day26\Calculation\obj\Debug\net7.0\Calculation.pdb
+c:\C#\Bootcamp\vscode\Day26\Calculation\obj\Debug\net7.0\Calculation.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day26\Calculation\obj\Debug\net7.0\ref\Calculation.dll

@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\bin\Debug\net7.0\CalculationNUnit.exe
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\bin\Debug\net7.0\CalculationNUnit.deps.json
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\bin\Debug\net7.0\CalculationNUnit.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\bin\Debug\net7.0\CalculationNUnit.dll
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\bin\Debug\net7.0\CalculationNUnit.pdb
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.dll
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\refint\CalculationNUnit.dll
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.pdb
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\ref\CalculationNUnit.dll

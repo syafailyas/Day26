@@ -1,0 +1,6 @@
+c:\C#\Bootcamp\vscode\Day26\CalculationNunit.Test2\bin\Debug\net7.0\CoverletSourceRootsMapping
+c:\C#\Bootcamp\vscode\Day26\CalculationNunit.Test2\obj\Debug\net7.0\CalculationNunit.Test2.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day26\CalculationNunit.Test2\obj\Debug\net7.0\CalculationNunit.Test2.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day26\CalculationNunit.Test2\obj\Debug\net7.0\CalculationNunit.Test2.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day26\CalculationNunit.Test2\obj\Debug\net7.0\CalculationNunit.Test2.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day26\CalculationNunit.Test2\obj\Debug\net7.0\CalculationNunit.Test2.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day26\RobotArms\bin\Debug\net7.0\RobotArms.exe
+c:\C#\Bootcamp\vscode\Day26\RobotArms\bin\Debug\net7.0\RobotArms.deps.json
+c:\C#\Bootcamp\vscode\Day26\RobotArms\bin\Debug\net7.0\RobotArms.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day26\RobotArms\bin\Debug\net7.0\RobotArms.dll
+c:\C#\Bootcamp\vscode\Day26\RobotArms\bin\Debug\net7.0\RobotArms.pdb
+c:\C#\Bootcamp\vscode\Day26\RobotArms\obj\Debug\net7.0\RobotArms.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day26\RobotArms\obj\Debug\net7.0\RobotArms.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day26\RobotArms\obj\Debug\net7.0\RobotArms.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day26\RobotArms\obj\Debug\net7.0\RobotArms.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day26\RobotArms\obj\Debug\net7.0\RobotArms.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day26\RobotArms\obj\Debug\net7.0\RobotArms.dll
+c:\C#\Bootcamp\vscode\Day26\RobotArms\obj\Debug\net7.0\refint\RobotArms.dll
+c:\C#\Bootcamp\vscode\Day26\RobotArms\obj\Debug\net7.0\RobotArms.pdb
+c:\C#\Bootcamp\vscode\Day26\RobotArms\obj\Debug\net7.0\RobotArms.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day26\RobotArms\obj\Debug\net7.0\ref\RobotArms.dll
