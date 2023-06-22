@@ -23,5 +23,6 @@
   <ItemGroup>
     <ProjectReference Include="..\SimpleCalculation\SimpleCalculation.csproj" />
     <Content Include="UnitTest1.cs" />
+    <Content Include="Usings.cs" />
   </ItemGroup>
 </Project>

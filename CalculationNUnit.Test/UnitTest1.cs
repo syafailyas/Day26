@@ -1,72 +1,72 @@
 using NUnit.Framework;
-using Calculation;
 namespace Calculation.Tests
 {
-    public class NumberCalculationTests
-    {
-        private NumberCalculation numberCalculation;
+	[TestFixture]
+	public class NumberCalculationTests
+	{
+		private NumberCalculation numberCalculation;
 
-        [SetUp]
-        public void Setup()
-        {
-            numberCalculation = new NumberCalculation();
-        }
+		[SetUp]
+		public void Setup()
+		{
+			numberCalculation = new NumberCalculation();
+		}
 
-        [Test]
-        public void TestAddition()
-        {
-            int a = 10;
-            int b = 12;
-            int expected = 51;
+		[Test]
+		public void TestAddition()
+		{
+			int a = 10;
+			int b = 12;
+			int expected = 22;
 
-            int actual = numberCalculation.Add(a, b);
+			int actual = numberCalculation.Add(a, b);
 
-            Assert.AreEqual(expected, actual);
-        }
+			Assert.AreEqual(expected, actual);
+		}
 
-        [Test]
-        public void TestSubtraction()
-        {
-            int a = 10;
-            int b = 12;
-            int expected = -2;
+		[Test]
+		public void TestSubtraction()
+		{
+			int a = 10;
+			int b = 12;
+			int expected = -2;
 
-            int actual = numberCalculation.Subtract(a, b);
+			int actual = numberCalculation.Subtract(a, b);
 
-            Assert.AreEqual(expected, actual);
-        }
+			Assert.AreEqual(expected, actual);
+		}
 
-        [Test]
-        public void TestMultiplication()
-        {
-            int a = 10;
-            int b = 12;
-            int expected = 120;
+		[Test]
+		public void TestMultiplication()
+		{
+			int a = 10;
+			int b = 12;
+			int expected = 120;
 
-            int actual = numberCalculation.Multiply(a, b);
+			int actual = numberCalculation.Multiply(a, b);
 
-            Assert.AreEqual(expected, actual);
-        }
+			Assert.AreEqual(expected, actual);
+		}
 
-        [Test]
-        public void TestDivision()
-        {
-            int a = 10;
-            int b = 2;
-            int expected = 5;
+		[Test]
+		public void TestDivision()
+		{
+			int a = 10;
+			int b = 2;
+			int expected = 5;
 
-            int actual = numberCalculation.Divide(a, b);
+			int actual = numberCalculation.Divide(a, b);
 
-            Assert.AreEqual(expected, actual);
-        }
+			Assert.AreEqual(expected, actual);
+		}
 
-        [Test]
-        public void TestDivisionByZero()
-        {
-            int a = 10;
-            int b = 1;
+		[Test]
+		public void TestDivisionByZero()
+		{
+			int a = 10;
+			int b = 1;
 
-            Assert.Throws<System.DivideByZeroException>(() => numberCalculation.Divide(a, b));
-        }
-    }
+			Assert.Throws<System.DivideByZeroException>(() => numberCalculation.Divide(a, b));
+		}
+	}
 }
