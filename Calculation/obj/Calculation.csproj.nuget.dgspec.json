@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\C#\\Bootcamp\\vscode\\Day26\\Calculation\\Calculation.csproj": {}
+    "c:\\CSharp\\Bootcamp\\vscode\\Day26\\Calculation\\Calculation.csproj": {}
   },
   "projects": {
-    "c:\\C#\\Bootcamp\\vscode\\Day26\\Calculation\\Calculation.csproj": {
+    "c:\\CSharp\\Bootcamp\\vscode\\Day26\\Calculation\\Calculation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\C#\\Bootcamp\\vscode\\Day26\\Calculation\\Calculation.csproj",
+        "projectUniqueName": "c:\\CSharp\\Bootcamp\\vscode\\Day26\\Calculation\\Calculation.csproj",
         "projectName": "Calculation",
-        "projectPath": "c:\\C#\\Bootcamp\\vscode\\Day26\\Calculation\\Calculation.csproj",
+        "projectPath": "c:\\CSharp\\Bootcamp\\vscode\\Day26\\Calculation\\Calculation.csproj",
         "packagesPath": "C:\\Users\\kinar\\.nuget\\packages\\",
-        "outputPath": "c:\\C#\\Bootcamp\\vscode\\Day26\\Calculation\\obj\\",
+        "outputPath": "c:\\CSharp\\Bootcamp\\vscode\\Day26\\Calculation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kinar\\AppData\\Roaming\\NuGet\\NuGet.Config"

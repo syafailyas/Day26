@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CalculationNunit.Test2
-build_property.ProjectDir = c:\C#\Bootcamp\vscode\Day26\CalculationNunit.Test2\
+build_property.ProjectDir = c:\CSharp\Bootcamp\vscode\Day26\CalculationNunit.Test2\

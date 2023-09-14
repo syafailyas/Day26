@@ -24,7 +24,7 @@ namespace Calculation.Tests
 			int result = numberCalc.Add(a, b);
 
 			// Assert
-			Assert.AreEqual(22, result);
+			Assert.That(result, Is.EqualTo(22));
 		}
 
 		[Test]
@@ -38,7 +38,7 @@ namespace Calculation.Tests
 			int result = numberCalc.Multiply(a, b);
 
 			// Assert
-			Assert.AreEqual(120, result);
+			Assert.That(result, Is.EqualTo(120));
 		}
 
 		[Test]

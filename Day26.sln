@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationNunit.Test2", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqTest", "MoqTest\MoqTest.csproj", "{7808DC89-C317-4F2C-8A19-C55DBEC3B028}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqTest2", "MoqTest2\MoqTest2.csproj", "{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +132,18 @@ Global
 		{7808DC89-C317-4F2C-8A19-C55DBEC3B028}.Release|x64.Build.0 = Release|Any CPU
 		{7808DC89-C317-4F2C-8A19-C55DBEC3B028}.Release|x86.ActiveCfg = Release|Any CPU
 		{7808DC89-C317-4F2C-8A19-C55DBEC3B028}.Release|x86.Build.0 = Release|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Debug|x64.Build.0 = Debug|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Debug|x86.Build.0 = Debug|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Release|x64.ActiveCfg = Release|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Release|x64.Build.0 = Release|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Release|x86.ActiveCfg = Release|Any CPU
+		{9EBF9691-6601-4FF5-B887-A1F8B6BB5683}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{916CFEAB-0C68-4840-AA26-E86EC3BC6CED} = {6116ED4F-C9BD-4A5A-94CC-37CFA701984B}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BoJ6K3vsEbtjm9HUFNzaGERE2Pg7smtP44h/Uu0p99UzKrLmbB6AvkFzsaFnjCMlykKrPwURE0ps+kTyNLMvKA==",
+  "dgSpecHash": "Z2nRpoLjy2PgLAFJzQDnMnVRp3EpVjZNECrsFeg8PfUghQOqCl3isY6q4q0HtaOXaCHRcrVRJke1zOVvKBPrPA==",
   "success": true,
-  "projectFilePath": "c:\\C#\\Bootcamp\\vscode\\Day26\\CalculationNUnit.Test\\CalculationNUnit.Test.csproj",
+  "projectFilePath": "c:\\CSharp\\Bootcamp\\vscode\\Day26\\CalculationNUnit.Test\\CalculationNUnit.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kinar\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\kinar\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

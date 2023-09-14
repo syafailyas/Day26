@@ -85,7 +85,7 @@ namespace Calculation.Tests
 		}
 
 		[Theory]
-		[InlineData(3, 5, 90)]
+		[InlineData(3, 5, 8)]
 		[InlineData(0, 0, 0)]
 		[InlineData(-10, 10, 0)]
 		public void Add_ShouldReturnCorrectResult_InlineData(int a, int b, int expected)

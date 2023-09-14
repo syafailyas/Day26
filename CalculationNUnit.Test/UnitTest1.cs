@@ -13,14 +13,17 @@ namespace Calculation.Tests
 		}
 
 		[Test]
-		public void TestAddition()
+		public void Add_AdditionOfTwoNumber()
 		{
+			//Arrange
 			int a = 10;
 			int b = 12;
 			int expected = 22;
 
+			//Act
 			int actual = numberCalculation.Add(a, b);
 
+			//Assert
 			Assert.AreEqual(expected, actual);
 		}
 
@@ -61,12 +64,12 @@ namespace Calculation.Tests
 		}
 
 		[Test]
-		public void TestDivisionByZero()
+		public void Divide_ShouldThrowDivideByZeroException_DivideByZero()
 		{
 			int a = 10;
-			int b = 1;
+			int b = 0;
 
-			Assert.Throws<System.DivideByZeroException>(() => numberCalculation.Divide(a, b));
+			Assert.Throws<DivideByZeroException>(() => numberCalculation.Divide(a, b));
 		}
 	}
 }

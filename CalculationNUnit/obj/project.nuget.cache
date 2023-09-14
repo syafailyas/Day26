@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QoAOpu3aHtZ7DCThA7XXmwDv4ghO4CFLetAJQP4XIpf4Q5bM+zzbmvGoXGeUCk729Q/PFQfdQtgBVD9y6FDdqw==",
+  "dgSpecHash": "mXU/FuE+RLIKFZqzoaEhOha6nD464ygT+BZ5BMiQ/+fh56fOhFI9WY91LhXnlci0g7BJ5FD4OdfQLQoaXbA+/w==",
   "success": true,
-  "projectFilePath": "c:\\C#\\Bootcamp\\vscode\\Day26\\CalculationNUnit\\CalculationNUnit.csproj",
+  "projectFilePath": "c:\\CSharp\\Bootcamp\\vscode\\Day26\\CalculationNUnit\\CalculationNUnit.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
