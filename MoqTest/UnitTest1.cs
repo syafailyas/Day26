@@ -15,12 +15,12 @@ public class GameRunner
 
 	public GameRunner(IList<IPlayer> players)
 	{
-		_players = players.ToList();
+		_players = players;
 	}
 
 	public IList<IPlayer> GetListPlayers()
 	{
-		return _players.ToList();
+		return _players;
 	}
 }
 
@@ -46,8 +46,8 @@ public class GameRunnerTests
 		IList<IPlayer> result = GameRunner.GetListPlayers();
 
 		// ASSERT
-		Assert.AreEqual(2, result.Count());
-        Assert.AreEqual("satrio",player1.Object.GetName());
-        Assert.AreEqual("joko", player2.Object.GetName());
+		Assert.That(result.Count(), Is.EqualTo(2));
+        Assert.That(result[0].GetName(), Is.EqualTo("satrio"));
+        Assert.That(result[1].GetName(), Is.EqualTo("joko"));
 	}
 }

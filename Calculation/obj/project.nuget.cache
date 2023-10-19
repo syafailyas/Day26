@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+hwopnQXBiaakJ4KvAwwIvxhS4Sk7Lz/wuIZaBw6BKMoaX2N1y0d7iYFb5vRYLAC55D1/eiyI7KpG4Zoh72bVQ==",
+  "dgSpecHash": "y6Mlda6/NKDhdQRNJ82tZAUveFsP62bfl+vZkUq4lAsJrTfumD4+tMBfg4OILrrTICcoO9NYyEW93+FFIg9tXw==",
   "success": true,
-  "projectFilePath": "c:\\CSharp\\Bootcamp\\vscode\\Day26\\Calculation\\Calculation.csproj",
+  "projectFilePath": "C:\\CSharp\\Bootcamp\\vscode\\Day26\\Calculation\\Calculation.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

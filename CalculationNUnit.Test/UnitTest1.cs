@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using Calculation;
 namespace Calculation.Tests
 {
 	[TestFixture]
@@ -28,7 +29,7 @@ namespace Calculation.Tests
 		}
 
 		[Test]
-		public void TestSubtraction()
+		public void Subtract_SubstractionOfTwoNumbers()
 		{
 			int a = 10;
 			int b = 12;
@@ -56,11 +57,11 @@ namespace Calculation.Tests
 		{
 			int a = 10;
 			int b = 2;
-			int expected = 5;
+			int expected = 3;
 
 			int actual = numberCalculation.Divide(a, b);
 
-			Assert.AreEqual(expected, actual);
+			Assert.AreEqual(expected, actual, "Expected not met");
 		}
 
 		[Test]

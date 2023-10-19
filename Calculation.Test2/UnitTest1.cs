@@ -5,9 +5,9 @@ namespace Calculation.Tests
 {
 	public class NumberCalculationTests
 	{
-        private NumberCalculation numberCalc;
+		private NumberCalculation numberCalc;
 
-        public NumberCalculationTests() 
+		public NumberCalculationTests() 
 		{
 			numberCalc = new NumberCalculation();
 		}
