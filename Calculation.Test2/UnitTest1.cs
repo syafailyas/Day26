@@ -6,12 +6,11 @@ namespace Calculation.Tests
 	public class NumberCalculationTests
 	{
 		private NumberCalculation numberCalc;
-
 		public NumberCalculationTests() 
 		{
 			numberCalc = new NumberCalculation();
 		}
-		
+
 		[Fact]
 		public void Add_ShouldReturnCorrectResult()
 		{
@@ -83,7 +82,8 @@ namespace Calculation.Tests
 			// Act and Assert
 			Assert.Throws<DivideByZeroException>(() => numberCalc.Divide(a, b));
 		}
-
+		//TestCase[()]
+		
 		[Theory]
 		[InlineData(3, 5, 8)]
 		[InlineData(0, 0, 0)]
@@ -99,6 +99,8 @@ namespace Calculation.Tests
 			// Assert
 			Assert.Equal(expected, result);
 		}
+		
+
 
 	}
 }

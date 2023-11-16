@@ -80,13 +80,30 @@ namespace Calculation.Tests
 			Assert.Throws<DivideByZeroException>(() => numberCalc.Divide(a, b));
 		}
 
-		[TestCase(3, 5, 90)]
-		[TestCase(0, 0, 0)]
-		[TestCase(-10, 10, 0)]
-		public void Add_ShouldReturnCorrectResult_TestCase(int a, int b, int expected)
+		[TestCaseSource(nameof(TestCaseData))]
+		public void Add_ShouldReturnCorrectResult_TestCase((int, int ,int) tuples)
 		{
 			// Arrange
+			int a = tuples.Item1;
+			int b = tuples.Item2;
+			int expected = tuples.Item3;
+			// Act
+			int result = numberCalc.Add(a, b);
 
+			// Assert
+			Assert.AreEqual(expected, result);
+		}
+		static IEnumerable<(int, int ,int)> TestCaseData() 
+		{
+			yield return (3, 5, 8);
+			yield return (0, 0, 0);
+			yield return (-10, 10, 0);
+		}
+		
+		[TestCaseSource(typeof(TCS), nameof(TCS.Data))]
+		public void Add_ShouldReturnCorrectResult_TestCase(int a,int b, int expected)
+		{
+			// Arrange
 			// Act
 			int result = numberCalc.Add(a, b);
 
@@ -94,4 +111,14 @@ namespace Calculation.Tests
 			Assert.AreEqual(expected, result);
 		}
 	}
+}
+
+public class TCS
+{
+	public static object[] Data =
+	{
+		new object[] { 12, 3, 4 },
+		new object[] { 12, 2, 6 },
+		new object[] { 12, 4, 3 }
+	};
 }

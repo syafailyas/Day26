@@ -91,7 +91,7 @@ namespace MyGame.Test
 			_cut.ChangeCardStatus(_card.Object, newStatus);
 
 			_card.Verify(c => c.SetStatus(newStatus), Times.Once);
-			Assert.IsTrue(eventTriggered);
+			Assert.IsTrue(eventTriggered, "Fail because ");
 		}
 	}
 }

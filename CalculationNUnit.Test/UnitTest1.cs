@@ -6,20 +6,20 @@ namespace Calculation.Tests
 	public class NumberCalculationTests
 	{
 		private NumberCalculation numberCalculation;
-
+		
 		[SetUp]
 		public void Setup()
 		{
 			numberCalculation = new NumberCalculation();
 		}
 
-		[Test]
-		public void Add_AdditionOfTwoNumber()
+		[TestCase(5, 4, 9)] //[Fact]
+		[TestCase(2, 3, 5)]
+		[TestCase(6, 1, 7)]
+		[TestCase(0, 0, 0)]
+		public void Add_ReturnCorrectNumber_AdditionOfTwoNumber(int a, int b, int expected)
 		{
 			//Arrange
-			int a = 10;
-			int b = 12;
-			int expected = 22;
 
 			//Act
 			int actual = numberCalculation.Add(a, b);
@@ -60,8 +60,9 @@ namespace Calculation.Tests
 			int expected = 3;
 
 			int actual = numberCalculation.Divide(a, b);
-
-			Assert.AreEqual(expected, actual, "Expected not met");
+			
+			
+			Assert.AreEqual(expected, actual);
 		}
 
 		[Test]

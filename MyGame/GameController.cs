@@ -2,6 +2,8 @@ namespace MyGame;
 
 public class GameController
 {
+
+	public object x;
 	private Dictionary<IPlayer, HashSet<ICard>> _players;
 	private IBoard _board;
 	public event Action<ICard>? OnCardUpdate;
