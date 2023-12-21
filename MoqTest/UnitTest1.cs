@@ -35,7 +35,7 @@ public class GameControllerTests
 		player1.SetupProperty(x => x.level,1);
 		player1.SetupProperty(x => x.id,10);
 		player1.Setup(u => u.GetName()).Returns(()=> "satrio");
-		
+
 		Mock<IPlayer> player2 = new Mock<IPlayer>();
 		player2.SetupProperty(u => u.level, 3);
 		player2.Setup(u => u.GetName()).Returns(()=> "joko");

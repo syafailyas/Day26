@@ -25,7 +25,7 @@ namespace Calculation.Tests
 			int actual = numberCalculation.Add(a, b);
 
 			//Assert
-			Assert.AreEqual(expected, actual);
+			Assert.That(actual, Is.EqualTo(expected));
 		}
 
 		[Test]
@@ -41,7 +41,7 @@ namespace Calculation.Tests
 		}
 
 		[Test]
-		public void TestMultiplication()
+		public void Multiply_ReturnCorrectNumber()
 		{
 			int a = 10;
 			int b = 12;

@@ -2,12 +2,10 @@ namespace MyGame;
 
 public class GameController
 {
-
-	public object x;
 	private Dictionary<IPlayer, HashSet<ICard>> _players;
 	private IBoard _board;
 	public event Action<ICard>? OnCardUpdate;
-	public GameController(IPlayer player, IBoard board) 
+	public GameController(IPlayer player, IBoard board)
 	{
 		_players = new()
 		{
@@ -15,13 +13,14 @@ public class GameController
 		};
 		_board = board;
 	}
-	public bool AddCards(IPlayer player, params ICard[] cards) 
+
+	public bool AddCards(IPlayer player, params ICard[] cards)
 	{
-		if(!_players.TryGetValue(player, out HashSet<ICard>? playersCard))
+		if (!_players.TryGetValue(player, out HashSet<ICard>? playersCard))
 		{
 			return false;
 		}
-		foreach(var card in cards) 
+		foreach (var card in cards)
 		{
 			playersCard.Add(card);
 			ChangeCardStatus(card, CardStatus.OnPlayer);
@@ -50,9 +49,23 @@ public class GameController
 		ChangeCardStatus(card, CardStatus.Removed);
 		return true;
 	}
-	public void ChangeCardStatus(ICard card, CardStatus status) 
+	public void ChangeCardStatus(ICard card, CardStatus status)
 	{
 		card.SetStatus(status);
 		OnCardUpdate?.Invoke(card);
+	}
+
+	public bool AddPlayer(IPlayer player)
+	{
+		if(_players.Count == 2) 
+		{
+			return false;
+		}
+		if(_players.ContainsKey(player)) 
+		{
+			return false;
+		}
+		_players.Add(player, new HashSet<ICard>());
+		return true;
 	}
 }
