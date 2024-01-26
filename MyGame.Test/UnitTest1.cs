@@ -1,4 +1,5 @@
 using System.Collections;
+using System.ComponentModel;
 using Moq;
 
 
@@ -7,9 +8,9 @@ namespace MyGame.Test
 	public class GameControllerTests
 	{
 		private GameController _game;
-		private Mock<IPlayer> _player;
-		private Mock<ICard> _card;
-		private Mock<IBoard> _board;
+		private static Mock<IPlayer> _player;
+		private static Mock<ICard> _card;
+		private static Mock<IBoard> _board;
 
 		[SetUp]
 		public void SetUp()
@@ -50,11 +51,11 @@ namespace MyGame.Test
 			Assert.IsFalse(result.Any());
 		}
 
-		[Test]
-		public void RemoveCard_CardRemovedSuccessfully_CardExists()
+		[TestCaseSource(typeof(TCS),nameof(TCS.Data))]
+		public void RemoveCard_CardRemovedSuccessfully_CardExists(IPlayer p, ICard card)
 		{
 			//_card.Setup(c => c.SetStatus(It.IsAny<CardStatus>()));
-			_game.AddCards(_player.Object, _card.Object);
+			_game.AddCards(p, card);
 
 			bool result = _game.RemoveCard(_player.Object, _card.Object);
 
@@ -93,6 +94,13 @@ namespace MyGame.Test
 
 			Assert.IsTrue(eventTriggered, "Fail because .... ");
 		}
-		
+		class TCS 
+		{
+			public static object[] Data =
+			{
+				new object [] { _player.Object , _card.Object },
+				new object [] { new Mock<IPlayer>().Object , _card.Object }
+			};
+		}
 	}
 }

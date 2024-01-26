@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using Calculation;
+using NUnit.Framework.Interfaces;
 namespace Calculation.Tests
 {
 	[TestFixture]
@@ -25,18 +26,19 @@ namespace Calculation.Tests
 			int actual = numberCalculation.Add(a, b);
 
 			//Assert
-			Assert.That(actual, Is.EqualTo(expected));
+			Assert.That(actual, Is.EqualTo(expected), "ini salah");
 		}
 
 		[Test]
 		public void Subtract_SubstractionOfTwoNumbers()
 		{
+			//Arrange
 			int a = 10;
 			int b = 12;
 			int expected = -2;
-
+			//Act
 			int actual = numberCalculation.Subtract(a, b);
-
+			//Assert
 			Assert.AreEqual(expected, actual);
 		}
 
@@ -57,7 +59,7 @@ namespace Calculation.Tests
 		{
 			int a = 10;
 			int b = 2;
-			int expected = 3;
+			int expected = 5;
 
 			int actual = numberCalculation.Divide(a, b);
 			

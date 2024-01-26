@@ -40,7 +40,7 @@ public class GameControllerTests
 		player2.SetupProperty(u => u.level, 3);
 		player2.Setup(u => u.GetName()).Returns(()=> "joko");
 		
-		IList<IPlayer> players = new IPlayer[] { player2.Object, player2.Object };
+		IList<IPlayer> players = new IPlayer[] { player1.Object, player2.Object };
 		var GameRunner = new GameController(players);
 
 		// ACT

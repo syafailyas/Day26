@@ -1,6 +1,6 @@
 namespace op;
 
-public class Tests
+public class NumberCalculationTest
 {
     [SetUp]
     public void Setup()
