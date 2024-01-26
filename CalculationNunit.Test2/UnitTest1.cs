@@ -127,8 +127,8 @@ public class TCS
 {
 	public static object[] Data =
 	{
-		new object[] { 12, 3, 4 },
-		new object[] { 12, 2, 6 },
-		new object[] { 12, 4, 3 }
+		new object[] { 12, 3, 15 },
+		new object[] { 12, 2, 14 },
+		new object[] { 12, 4, 16 }
 	};
 }
