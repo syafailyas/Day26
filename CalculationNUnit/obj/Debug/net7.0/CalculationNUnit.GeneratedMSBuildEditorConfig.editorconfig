@@ -8,6 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CalculationNUnit
-build_property.ProjectDir = C:\CSharp\Bootcamp\vscode\Day26\CalculationNUnit\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\

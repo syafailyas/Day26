@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/PFiyFX4j0hQIG3n+mhWhZ/1D9Tv1+xy5DqiblQrIbmsV2M/uOADHJNZCEhoArS6Rbnq6rhMK0PjZKbUx92mGw==",
+  "dgSpecHash": "2vYR8MYIW49qqrE7hDRjiLZQ1vbEcuPORPraflJ7x5WOma2VNMPaMC/LXcdBjNaZp5M/YexTG1ZtGBXO17ux6A==",
   "success": true,
-  "projectFilePath": "C:\\CSharp\\Bootcamp\\vscode\\Day26\\CalculationNUnit\\CalculationNUnit.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\kinar\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\kinar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\kinar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\kinar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Batch 8\\OneDrive\\Desktop\\Day26\\CalculationNUnit\\CalculationNUnit.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

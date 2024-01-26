@@ -1,4 +1,5 @@
 namespace RobotArms;
+
 public class RobotArm : IRobotArm
 {
 	private double _x;
@@ -25,6 +26,7 @@ public class RobotArm : IRobotArm
 			_isHolding = true;
 			Console.WriteLine("The robot arm has grabbed an object.");
 		}
+
 		else
 		{
 			Console.WriteLine("The robot arm is already holding an object.");
@@ -38,12 +40,13 @@ public class RobotArm : IRobotArm
 			_isHolding = false;
 			Console.WriteLine("The robot arm has released the object.");
 		}
+
 		else
 		{
 			Console.WriteLine("The robot arm is not holding an object.");
 		}
 	}
-	
+
 	public bool CompareTool(int x, int y)
 	{
 		return x==y;

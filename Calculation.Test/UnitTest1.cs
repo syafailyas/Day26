@@ -6,6 +6,7 @@ namespace Calculation.Tests
 	public class NumberCalculationTests
 	{
 		[Fact]
+
 		public void Add_ShouldReturnCorrectResult()
 		{
 			// Arrange
@@ -21,6 +22,7 @@ namespace Calculation.Tests
 		}
 
 		[Fact]
+
 		public void Multiply_ShouldReturnCorrectResult()
 		{
 			// Arrange
@@ -36,6 +38,7 @@ namespace Calculation.Tests
 		}
 
 		[Fact]
+
 		public void Subtract_ShouldReturnCorrectResult()
 		{
 			// Arrange
@@ -51,6 +54,7 @@ namespace Calculation.Tests
 		}
 
 		[Fact]
+
 		public void Divide_ShouldReturnCorrectResult()
 		{
 			// Arrange
@@ -66,15 +70,17 @@ namespace Calculation.Tests
 		}
 
 		[Fact]
+
 		public void Divide_ShouldThrowDivideByZeroException()
 		{
 			// Arrange
 			NumberCalculation numberCalc = new();
+
 			int a = 10;
 			int b = 0;
 
 			// Act and Assert
-			Assert.Throws<DivideByZeroException>(() => numberCalc.Divide(a, b));
+			Assert.Throws<DivideByZeroException>( () => numberCalc.Divide(a, b) );
 		}
 	}
 }
