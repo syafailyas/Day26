@@ -9,10 +9,12 @@ class GameController
 	{
 		this.dice = dice;
 	}
+
 	public int Roll()
 	{
-		return dice.Roll() * 10;
+		return dice.Roll();
 	}
+
 	public string Roll(int total)
 	{
 		List<int> totalDice = new();
@@ -35,7 +37,7 @@ public interface IDice
 public class GameControllerTest
 {
 	[Theory]
-	[InlineData(2, 2, "Double")]
+	[ InlineData(2, 2, "Double") ]
 
 	public void Roll_ValueResult(int first, int second, string expected)
 	{

@@ -17,10 +17,10 @@ namespace Calculation.Tests
 			numberCalculation = new NumberCalculation();
 		}
 
-		[TestCase(5, 4, 9)] // [Fact]
-		[TestCase(2, 3, 5)]
-		[TestCase(6, 1, 7)]
-		[TestCase(0, 0, 0)]
+		[ TestCase(5, 4, 9) ] // [Fact]
+		[ TestCase(2, 3, 5) ]
+		[ TestCase(6, 1, 7) ]
+		[ TestCase(0, 0, 0) ]
 
 		public void Add_ReturnCorrectNumber_AdditionOfTwoNumber(int a, int b, int expected)
 		{
