@@ -28,3 +28,17 @@ C:\CSharp\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUn
 c:\CSharp\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.genruntimeconfig.cache
 c:\CSharp\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\ref\CalculationNUnit.dll
 c:\CSharp\Bootcamp\vscode\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.sourcelink.json
+C:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\bin\Debug\net7.0\CalculationNUnit.exe
+c:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\bin\Debug\net7.0\CalculationNUnit.deps.json
+c:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\bin\Debug\net7.0\CalculationNUnit.runtimeconfig.json
+C:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\bin\Debug\net7.0\CalculationNUnit.dll
+C:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\bin\Debug\net7.0\CalculationNUnit.pdb
+C:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.AssemblyInfoInputs.cache
+C:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.AssemblyInfo.cs
+C:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.csproj.CoreCompileInputs.cache
+C:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.dll
+C:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\obj\Debug\net7.0\refint\CalculationNUnit.dll
+C:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.pdb
+c:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\obj\Debug\net7.0\CalculationNUnit.genruntimeconfig.cache
+c:\Users\Batch 8\OneDrive\Desktop\Day26\CalculationNUnit\obj\Debug\net7.0\ref\CalculationNUnit.dll
